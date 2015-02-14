@@ -1,0 +1,19 @@
+body{
+background-image: url("http://aelsey.com/rixty/rixty.jpg");
+background-repeat:no-repeat;
+}
+
+#video{
+position:absolute;
+left: 628px;
+top: 283px;
+}
+
+#thereference{
+position:absolute;
+left:1475px;
+font-family:"Georgia"; 
+font-style: italic;
+font-size: 15px;
+color: blue;
+}

@@ -1,0 +1,13 @@
+body{
+background-image: url("http://aelsey.com/rixty/url.jpg");
+background-repeat:no-repeat;
+}
+
+#query{
+position:absolute;
+top:249px;
+left:735px;
+font-family:"Georgia"; 
+font-size: 30px;
+color: red;
+}

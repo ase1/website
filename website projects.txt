@@ -1,0 +1,40 @@
+projects for website:
+
+=Ruben's tube
+=marshmallow gun
+=IV pole
+=crane
+=skittle dispenser
+=clock
+=coffee table
+=harp
+=~motorcycle restoration
+=platformers
+=~missing sock coalition
+=drinking buddies
+=~website haha
+=collective
+=rixty
+=selfie
+=facebook visualization
+
+solar car
+research
+mobile city hall
+china internship
+
+~ = in progress/unfinished
+= = has folder for website
+
+Categories:
+
+Home
+About Me
+Projects
+{
+  Work
+  School
+  Fun
+}
+Experience
+Contact
