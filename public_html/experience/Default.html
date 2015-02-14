@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <head>
-  <title>ANDREW ELSEY</title>
+  <title>ANDREW ELSEY - experience</title>
   <link rel="shortcut icon" href="http://www.aelsey.com/ae.ico">
-  <div id="headerpic"> <p><a href="http://www.aelsey.com"><img src="tempheader.jpg"></a></p> </div>
-  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-  
-  <div id="nav">
-    <h3>
-    <ul>
-      <li><a href="http://www.aelsey.com">home</a></li>
-	  <li><a href="http://www.aelsey.com/about.html">about</a></li>
-	  <li><a href="http://www.aelsey.com/education.html">education</a></li>
-	  <li><a href="http://www.aelsey.com/projects.html">projects</a></li>
-	  <li><a href="http://www.aelsey.com/activities.html">activities</a></li>
-	  <li><a href="http://www.aelsey.com/experience.html">experience</a></li>
-	  <li><a href="http://www.aelsey.com/contact.html">contact</a></li>
-    </ul>
-	</h3>
-  </div>
+  <!-- <div id="headerpic" class='container'> <p><a href="http://www.aelsey.com"><img src="res/tempheader.jpg"></a></p> </div> -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <div id="connect">
-    <ul>
-	  <li><a href="https://www.facebook.com/elsey.andrew">Facebook</a></li>
-	  <li> - </li>
-	  <li><a href="https://twitter.com/newscannerd">Twitter</a></li>
-	  <li> - </li>
-	  <li><a href="https://www.linkedin.com/pub/andrew-elsey">LinkedIn</a></li>
-	  <li> - </li>
-	  <li><a href="mailto:ase1@rice.edu">Email</a></li>
-    </ul>
-  </div>
-  
-  
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand" href="../">
+				<img alt="Brand" src="../res/favicon_tiny.png">
+			</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="../">home</a></li>
+        <li><a href="../about/">about</a></li>
+        <li><a href="../education">education</a></li>
+        <li class="active"><a href="#">experience<span class="sr-only">(current)</span></a></li>
+        <li><a href="../projects/">projects</a></li>
+        <li><a href="../activities/">activities</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="../contact/">contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.backstretch.min.js"></script>
+<script>
+    $.backstretch("../res/background_purple.jpg");
+</script>
 </head>
 
 <body>
-<div id="welcome">
-  <p>Hi, I'm Andrew. I was born in Luxembourg, grew up in Clearwater, FL, and I'm currently going to school in Houston, TX. 
-  I'm currently a sophomore at Rice University studying mechanical engineering because one day I decided that I liked it. 
-  I spend a lot of time running (long distance), working on projects, and responding to emails. 
-  I'm not really sure what else I want to write here since this entire website is a big "about". </p>
+<div class='container main-content'>
+	<div class='row'>
+		<div class='col-md-10-offset-1'style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
+			<p>
+				I haven't entered the workforce yet, so this page is populated with mostly internships and part-time jobs. 
+			</p>
+		</div>
+	</div>
 </div>
 </body>

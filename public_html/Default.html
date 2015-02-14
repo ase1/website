@@ -2,8 +2,8 @@
 <head>
   <title>ANDREW ELSEY</title>
   <link rel="shortcut icon" href="http://www.aelsey.com/ae.ico">
-  <!-- <div id="headerpic" class='container'> <p><a href="http://www.aelsey.com"><img src="tempheader.jpg"></a></p> </div> -->
-  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <!-- <div id="headerpic" class='container'> <p><a href="http://www.aelsey.com"><img src="res/tempheader.jpg"></a></p> </div> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
@@ -18,7 +18,7 @@
         <span class="icon-bar"></span>
       </button>
             <a class="navbar-brand" href="#">
-				<img alt="Brand" src="favicon_tiny.png">
+				<img alt="Brand" src="res/favicon_tiny.png">
 			</a>
     </div>
 
@@ -41,21 +41,25 @@
 <script src="js/jquery.js"></script>
 <script src="js/jquery.backstretch.min.js"></script>
 <script>
-    $.backstretch([
-	"background.jpg"
-	], {
-        fade: 750,
-        duration: 4000
-    });
+    $.backstretch("res/background_green.jpg");
 </script>
   
 </head>
 
 <body>
-<div id="welcome" class='container'>
-	<p>Welcome! I'm Andrew, and I'm a student at Rice University in Houston, TX. I'm a mechanical engineering major interested in electronics, app development, and design. (along with, you know, building stuff). Feel free to peruse this site to see what I've been up to. In case you were wondering, this website is currently under construction. I'm hoping to make it look nice with Twitter Bootstrap in the eventual future.
-	</p>
-	
-	<h2>POTENTIAL EMPLOYERS: I'm more finished in real life than this website. </h2>
+<div class='container main-content'>
+	<div class='row'>
+		<div class='col-md-6' style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
+			<h1 style='text-align:center;'>Welcome!</h1>
+			<hr>
+		    <h4>I'm Andrew, and I'm a student at Rice University in Houston, TX. <br><br>I'm a mechanical engineering major interested in electronics, app development, and design. (along with, you know, building stuff). <br><br>Feel free to peruse this site to see what I've been up to. <br><br>In case you were wondering, this website is currently under construction. </h4>
+			<hr>
+		    <h6><strong>POTENTIAL EMPLOYERS: The person is more finished than the website.</strong></h6>
+		</div>
+		
+		<div class='col-md-6'>
+			<img src='res/portrait.jpg' class='img-responsive' alt='Professional protraits are expensive. ' />
+		</div>
+	</div>
 </div>
 </body>
