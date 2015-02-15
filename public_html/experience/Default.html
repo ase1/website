@@ -6,6 +6,15 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/jquery.backstretch.min.js"></script>
+	<script>
+	  $.backstretch("../res/background_purple.jpg");</script>
+	<script>
+		$(".mrslshow").backstretch(["mrsl1.png","mrsl2.jpg","mrsl3.jpg"], {fade: 750, duration: 4000});
+	</script>
+  
 	<nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,11 +46,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<script src="../js/jquery.js"></script>
-<script src="../js/jquery.backstretch.min.js"></script>
-<script>
-    $.backstretch("../res/background_purple.jpg");
-</script>
+
 </head>
 
 <body>
@@ -49,8 +54,20 @@
 	<div class='row'>
 		<div class='col-md-10-offset-1'style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
 			<p>
-				I haven't entered the workforce yet, so this page is populated with mostly internships and part-time jobs. 
+				I haven't entered the workforce yet, so this page is populated with mostly internships and part-time jobs. Here's a few of the things that I've done, ordered chronologically:
 			</p>
+		</div>
+		
+		<div class='col-md-8' style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
+				
+			<h2>Multi-Robot Systems Lab</h2>
+			<p>The <a href='http://mrsl.rice.edu/'>Multi-Robot Systems Lab</a> at Rice University is a computer science lab under James McLurkin focused on dealing with swarm robotics. Essentially, most of the research that is done involves getting a lot of robots to work together to efficiently accomplish a task. The robots are like scaled-down Roombas that can talk to each other. I work on the hardware side, designing and fabricating anything and everything that the lab may need. <br><br>Currently, I'm on a team producing modular robot charger/travel cases, because there's no easy way to charge many robots simultaneously. We're calling it the ToasterCharger. I'm working on a team of undergraduates, with Sujay Tadwalkar (Electrical Engineering) and Kai Holnes (Computer Science). I'm using SolidWorks to make CAD drawings, and we enlisted the help of local fabricators to machine foam and brackets. <a href='http://www.omnicase.com/'>OmniCase</a> has been incredibly helpful in the design process - we're machining our ToasterCharger out of two layers of 2" antistatic foam. We've also been working with Mason Road Sheet Metal and <a href='https://www.bigbluesaw.com/'>Big Blue Saw</a> to make terminals for charging. This experience has given me a tremendous amount of insight into the process of ordering from vendors. 
+			<br><br>
+			<a href='https://github.com/mrsl/rone-electrical/tree/master/ToasterChargerModule/Charge%20Case%20v2'>ToasterCharger Github</a>
+			</p>
+		</div>
+		<div class='col-md-4'>
+			<img src='mrsl1.png' class='img-responsive'/>
 		</div>
 	</div>
 </div>
