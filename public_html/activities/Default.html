@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>ANDREW ELSEY - projects</title>
+  <title>ANDREW ELSEY - activities</title>
   <link rel="shortcut icon" href="http://www.aelsey.com/ae.ico">
   <!-- <div id="headerpic" class='container'> <p><a href="http://www.aelsey.com"><img src="res/tempheader.jpg"></a></p> </div> -->
   <link rel="stylesheet" href="../css/bootstrap.min.css"/>
@@ -28,12 +28,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="../">home</a></li>
-        <li><a href="../about/">about</a></li>
+        <li><a href="../about">about</a></li>
         <li><a href="../education/">education</a></li>
         <li><a href="../experience/">experience</a></li>
-        <li class="active"><a href="#">projects<span class="sr-only">(current)</span></a></li>
-        <li><a href="../activities/">activities</a></li>
-        <li><a href="../blog/">blog</a></li>
+        <li><a href="../projects/">projects</a></li>
+        <li class="active"><a href="#">activities<span class="sr-only">(current)</span></a></li>
+        <li><a href="../blog">blog</a></li>
         <li><a href="../contact/">contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -42,34 +42,43 @@
 
 <script src="../js/jquery.backstretch.min.js"></script>
 <script>
-    $.backstretch(	"../res/background_red.jpg");
-</script>
-
-<script>
-	function redBorder(x){
-		x.style.border="5px solid red";
-	}
-	function noBorder(x){
-		x.style.border="5px none red";
-	}
+    $.backstretch(	"../res/background_orange.jpg");
 </script>
 </head>
 
 <body>
 <div class='container main-content'>
 	<div class='row'>
-		<div class='col-md-12' style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
+		<div class='col-md-10-offset-1'style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
 			<p>
-				Here's the main page for all the projects that I'm not ashamed to put online, ordered chronologically. I'll try to periodically update this. 
+				Here's a bunch of things that I do outside of school and work. This page currently under construction. 
+			</p>
+		</div>
+		<br>
+		<!-- Running -->
+		<div class='col-md-8' style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
+				
+			<h2>Running</h2>
+			<p>I like to run sometimes. 
+			</p>
+		</div>
+		<div class='col-md-4' >
+			<img src='#' class='img-responsive' width='100%'/>
+		</div>
+	</div>
+		<br>
+	<div class='row'>
+		<!-- MSP -->
+		<div class='col-md-4'>
+			<img src='#' class='img-responsive' width='100%'/>
+		</div>
+		<div class='col-md-8' style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
+				
+			<h2>Rice Solar Car</h2>
+			<p>I'm on the Solar Car Team, where we build a car that may or may not actually have solar panels. 
 			</p>
 		</div>
 	</div>
-	<br>
-	
-	<div class='row'>
-		<div class='col-md-3' onmouseover="redBorder(this)" onmouseout="noBorder(this)">
-			<a href='clock/'><img src='clock/mini.jpg' class='img-responsive' width='100%'/>
-			<p style='text-align:center; background-color:#FFFFFF; opacity:.9; font-size:150%'>Annoying Clock</p></a>
-		</div>
-	</div>
+		<br>
+</div>
 </body>
