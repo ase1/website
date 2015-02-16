@@ -5,33 +5,25 @@
   <!-- <div id="headerpic" class='container'> <p><a href="http://www.aelsey.com"><img src="res/tempheader.jpg"></a></p> </div> -->
   <link rel="stylesheet" href="../css/bootstrap.min.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <script src="../js/jquery.js"></script>
-	<script src="../js/bootstrap.js"></script>
-	<script src="../js/jquery.backstretch.min.js"></script>
-	<script>
-	  $.backstretch("../res/background_purple.jpg");</script>
-	<script>
-		$(".mrslshow").backstretch(["mrsl1.png","mrsl2.jpg","mrsl3.jpg"], {fade: 750, duration: 4000});
-	</script>
   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 	<nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarcollapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-            <a class="navbar-brand" href="../">
-				<img alt="Brand" src="../res/favicon_tiny.png">
-			</a>
+            <a class="navbar-brand" href="../"> <img alt="Brand" src="../res/favicon_tiny.png"> </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="navbarcollapse">
       <ul class="nav navbar-nav">
         <li><a href="../">home</a></li>
         <li><a href="../about/">about</a></li>
@@ -39,14 +31,16 @@
         <li class="active"><a href="#">experience<span class="sr-only">(current)</span></a></li>
         <li><a href="../projects/">projects</a></li>
         <li><a href="../activities/">activities</a></li>
-        <li><a href="#">blog</a></li>
+        <li><a href="../blog">blog</a></li>
         <li><a href="../contact/">contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
-
+<script src="../js/jquery.backstretch.min.js"></script>
+<script>
+    $.backstretch(	"../res/background_purple.jpg");
+</script>
 </head>
 
 <body>
@@ -57,7 +51,8 @@
 				I haven't entered the workforce yet, so this page is populated with mostly internships and part-time jobs. Here's a few of the things that I've done, ordered chronologically:
 			</p>
 		</div>
-		
+		<br>
+		<!-- MRSL -->
 		<div class='col-md-8' style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
 				
 			<h2>Multi-Robot Systems Lab</h2>
@@ -66,9 +61,66 @@
 			<a href='https://github.com/mrsl/rone-electrical/tree/master/ToasterChargerModule/Charge%20Case%20v2'>ToasterCharger Github</a>
 			</p>
 		</div>
-		<div class='col-md-4'>
-			<img src='mrsl1.png' class='img-responsive'/>
+		<div class='col-md-4' >
+			<img src='mrsl1.png' class='img-responsive' width='100%'/>
 		</div>
 	</div>
+		<br>
+	<div class='row'>
+		<!-- MSP -->
+		<div class='col-md-4'>
+			<img src='msp.jpg' class='img-responsive'/>
+		</div>
+		<div class='col-md-8' style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
+				
+			<h2>Microsoft Student Partner</h2>
+			<p>During the 2014-2015 school year, I became the <a href='http://www.microsoftstudentpartners.com/'>Microsoft Student Partner</a> at Rice University. The role of a MSP is to foster technical growth in a university setting, all the while subtly promoting Microsoft products. Over the course of the year, I've hosted half a dozen technical workshops, held an Hour of Code event, and helped out with Puzzle Hunt challenges and recruitment meetings. The technical workshops spawned a collaboration between myself and Ahmed Haque, a graduate student with a hankering for gaining practical computer science knowledge. We created <a href='http://ricedevchats.org/'>Rice DevChats</a>, a workshop series inviting students to teach other students technical knowledge outside of class. DevChats are pretty popular, with 15-40 participants per workshop. As MSP, I also worked alongside Paul DeCarlo, the Microsoft Tech Evangelist in Houston. Paul's a great guy and he's a gold mine for useful knowledge and connections. Though computer science knowledge isn't my area of study, it's something I enjoy and I find that CS communities are very cohesive. By far, the biggest takeaway from my work as a Microsoft Student Partner is experience presenting to others and learning to teach myself. I've really enjoyed this opportunity and I've met some great people because of it. 
+			<br><br>
+			One of the technical workshops that I designed and hosted: <a href='https://github.com/ase1/Data-Visualization-with-Twitter'>Data Visualization with Twitter</a>
+			</p>
+		</div>
+	</div>
+		<br>
+	<div class='row'>
+		<!-- CoH -->
+		<div class='col-md-8' style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
+				
+			<h2>Houston Dept. of Neighborhoods</h2>
+			<p>In the summer of 2014, I worked at an internship through RCEL wherein I worked for the City of Houston's Department of Neighborhoods. I was a design engineer on a team with five other RCEL certificate candidates (Nick Bernal, David Chan, Christian Hauser, David Smith, Rachel Sterling) and we worked together to design and promote a Mobile City Hall. The idea was to create a truck that would provide City Hall services to Houston residents in their own neighborhoods. The truck would provide information, accept forms, and potentially host community events like movie nights. The team worked for 12 weeks over the summer, and created a fully-fledged design and implementation plan. Unfortunately, due to (somewhat expected) circumstances involving City bureaucracy, the implementation phase of our internship was never completed. However, we did create an exquisite 2-foot scale model of the truck, complete with working speakers and little figurines that can be used for demonstrations. Working at the City, I learned a lot about why government is characteristically bad at making improvements and how to handle people who are more than happy to turn you down. While it may have not been the most enjoyable experience, I learned some hard truths about the workplace and power structures that exist in the real world. 
+			</p>
+		</div>
+		<div class='col-md-4'>
+			<img src='coh.jpg' class='img-responsive'/>
+		</div>
+	</div>
+		<br>
+	<div class='row'>
+		<!-- GSCS -->
+		<div class='col-md-4'>
+			<img src='gscs.jpg' class='img-responsive'/>
+		</div>
+		<div class='col-md-8' style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
+				
+			<h2>Glasscock School for Continuing Studies</h2>
+			<p>During my freshman year at Rice, I decided that my time wasn't spread thin enough so I applied for an on-campus job as a Services Assistant at the Glasscock School for Continuing Studies. It's probably the best student job I could have asked for. My duties include managing classroom tech, assisting instructors and students (most of whom are much older than I), and mostly manning classrooms during classes. I've probably picked up some interpersonal skills along the way. Occasionally, I'll help run AP/IB seminars. 
+			</p>
+		</div>
+	</div>
+		<br>
+		
+	<div class='row'>
+		<!-- Motortronics -->
+		<div class='col-md-8' style='background-color:#FFFFFF; opacity:.9; padding:20px;'>
+				
+			<h2>Motortronics Inc.</h2>
+			<p>I had an internship at <a href='http://www.motortronics.com/'>Motortronics</a> in the summer of 2013 immediately after graduating high school. It was located in Qingdao, China for about 5 weeks. Motortronics is a vendor of industrial-grade slow-start motor controllers. This internship wasn't organized at all; I had a friend whose father worked at Motortronics, and he was considering starting an internship program. The Chinese branch of Motortronics is focused on fabrication of motor controllers, for power plants in China and for other international ventures. While I didn't have enough technical skill or mastery of Chinese to be overly useful to the company, they did teach me a lot about international business and the fabrication process. I also got the opportunity to travel around China on business trips shadowing Mr. Hou (and some as a tourist as well). I was constantly providing feedback and giving suggestions on the development of the program. 
+ 
+			</p>
+		</div>
+		<div class='col-md-4'>
+			<img src='motortronics.jpg' class='img-responsive'/>
+		</div>
+	</div>
+		<br>
 </div>
 </body>
